@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   if num < 2 then
-    FALSE
+    false
   else
     max = (num ** 0.5).floor
     
