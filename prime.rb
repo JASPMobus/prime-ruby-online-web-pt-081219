@@ -7,5 +7,6 @@ def prime?(num)
     
     (2..max).any? do |i|
       num % i == 0
+    end
   end
 end
